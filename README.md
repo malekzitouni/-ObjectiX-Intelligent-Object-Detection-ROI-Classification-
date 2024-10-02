@@ -24,13 +24,15 @@ The project's innovative approach combines deep learning techniques with a robus
 
 - **Model**: ResAttention
   - A sophisticated convolutional neural network designed to focus on salient features of images while ignoring irrelevant background information. The ResAttention model improves performance in complex tasks such as object detection and classification.
- ---![Figure1.png](attachment:a931be73-0050-4dac-b168-1246d8c36cda.png)
+![fig2,c](https://github.com/user-attachments/assets/25f34d1b-c97f-4097-9004-3c3ca4fa0015)
 
 ### Dataset Information
 
 - **Dataset Used**: COCO dataset (train 2017 set)
 - **Total Images**: 118,287 images
 - **Categories**: The COCO dataset includes 80 object categories, providing a rich source of data for training robust models.
+- 
+![COCODA](https://github.com/user-attachments/assets/5db04609-4bf5-4190-9a6c-427dea40a8f1)
 
 ### Training Configuration
 

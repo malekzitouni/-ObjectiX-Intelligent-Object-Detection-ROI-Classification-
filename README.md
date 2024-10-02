@@ -1,9 +1,9 @@
-# -ObjectiX-Intelligent-Object-Detection-ROI-Classification-
+# -ObjectiX-Object-Detection-ROI-Classification-
 Here’s a more detailed README file for your project, providing an in-depth summary and context:
 
 ---
 
-# ObjectiX: Intelligent Object Detection and ROI Classification
+# ObjectiX:  Object Detection and ROI Classification
 
 ## Project Overview
 
@@ -44,7 +44,7 @@ The project's innovative approach combines deep learning techniques with a robus
 ### Training Progress and Results
 
 - The initial training phase has been successfully executed in a CPU-only environment.
-- Training logs and checkpoints have been generated, saving key model states from `100.torch` to `700.torch`. These checkpoints allow for potential resumption of training without starting from scratch.
+- Training logs and checkpoints have been generated, saving key model states from `100.torch` to `1100.torch` for the first Epoch . These checkpoints allow for potential resumption of training without starting from scratch.
 
 ### Challenges Faced
 

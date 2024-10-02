@@ -1,7 +1,3 @@
-# -ObjectiX-Object-Detection-ROI-Classification-
-Here’s a more detailed README file for your project, providing an in-depth summary and context:
-
----
 
 # ObjectiX:  Object Detection and ROI Classification
 

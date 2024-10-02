@@ -10,6 +10,7 @@ Here’s a more detailed README file for your project, providing an in-depth sum
 **ObjectiX** is an advanced project aimed at developing intelligent object detection and classification capabilities using state-of-the-art convolutional neural networks (CNNs). The primary focus of this project is to train the **ResAttention** model for effectively classifying specific regions of interest (ROIs) in images. This technology has the potential to enhance various applications, including autonomous vehicles, robotics, augmented reality, and smart surveillance systems.
 
 The project's innovative approach combines deep learning techniques with a robust dataset, ensuring high accuracy and efficiency in object detection and classification tasks.
+![network](https://github.com/user-attachments/assets/5b56dafb-9f51-470c-9351-07f0b7a051f3)
 
 ## Objectives
 

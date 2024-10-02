@@ -55,8 +55,9 @@ for c in range(Reader.NumCats):
                                          EvalMode=True)  # Run net inference and get prediction
                   PredLb = Lb.data.cpu().numpy()
                   # .......................................................................................
-                  LbSize = SegmentMask[i].sum()
+                  LbSize = SegmentMask[i].sum() #the number of pixels corresponding to the detected object.
                   SzInd = -1
+                  # Determine the size category of the detected object based on the number of pixels in its segmentation mask
                   for f, sz in enumerate(Sizes):
                         if LbSize < sz:
                               SzInd = f
@@ -64,6 +65,11 @@ for c in range(Reader.NumCats):
 
                   if PredLb[0] == Labels[i]:
                         TP[Labels[i]] += 1
+                        # Labels[i] refers to the label of the current object (e.g., the ground truth class) for the i-th image in the current batch.
+                        # SzInd is an index that identifies the size category based on the size of the detected object 
+                        # Increment the count of True Positives for that specific class and size category.
+                        # SzTP[2, 4] would refer to the count of True Positives for the third class (index 2) that have been classified into the fifth size category (index 4).
+                       ,If Labels[i] is 2 (indicating the current image belongs to the third class), and SzInd is 4 (indicating that the size of the detected object falls into the fifth size category)
                         SzTP[Labels[i], SzInd] += 1
                   else:
                         FN[Labels[i]] += 1
